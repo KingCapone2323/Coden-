@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+li, a, button{
+    font-family: 'Finlandica', sans-serif;
+    font-weight: 500; font-size: 1em;
+    color: #FFFF;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #24252A;
+}
+
+h1{
+color: #FFFF;
+font-family: 'Finlandica', sans-serif;
+text-shadow: 2px 1px 4px #0088a9;
+}
+
+.nav__link{
+list-style: none;
+}
+
+.nav__link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__link{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__link li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,8);
+}
+/*--Container__Principal--*/
+.titulo{
+    padding: 20px 20%;
+    justify-content: center;
+    background: #0088a9;
+}
+
+.titulo__principal{
+    display: flex;
+    align-self: center;
+    color: #FFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
+    background: #0088a9;
+    text-shadow: 1px 2px 3px #24252A;
+    font-size: 20px;
+}
+
+.titulo__principal{
+    margin: 0px 50px;
+}
+/*---Contenido Inicio Principal---*/
+.contenido__principal{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+    
+.titulo__con__principal{
+    color: #FFFF;
+    font-family: 'Finlandica', sans-serif;
+    text-shadow: 2px 1px 4px #0088a9; 
+    margin: 5px;
+}
+
+p{
+    display: flex;
+    color: #FFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
+    text-shadow: 1px 2px 3px #24252A;
+}
+
+.boton__suscribirse{
+    margin: 25px 25%;
+}
+
+/*---Video de Fondo---*/
+.video{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.absolute{
+    margin: 25px 25%;
+    padding: 10px;
+}
+
+.boton__suscribirse{
+    display: flex;
+    padding: 10px 100px 10px 100px;
+}
+
+.divicion{
+    background: #000000;
+}
+
+/*---SECTION SUSCRIPCION---*/
+.membre__conten{
+    background-color: #ff0404e6;
+    display: flexbox;
+    position: relative;
+    justify-content: center;
+}
+
+.text__descripcion{
+    color: rgb(249, 249, 249);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 4px #010101; 
+    margin: 5px;
+}
+
+
+
+.membre__nombre{
+    color: #FFFF;
+    font-family: 'Finlandica', sans-serif;
+    text-shadow: 2px 1px 4px #0088a9; 
+    margin: 5px;
+}
+
+.color__costo{
+    color: #0088a9;
+}
