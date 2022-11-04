@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+body{
+    font-family: 'Finlandica', sans-serif;
+    height: 650px;
+    display: flex;
+    justify-self: center;
+    align-items:center;
+}
+
+h2{
+    text-align: center;
+    font-weight: 700;
+    color: #FFFF;
+    text-shadow: 2px 1px 4px #0088a9;
+}
+
+form{
+    background:#24252A;
+    padding: 40px 0;
+    margin: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+h1{
+    font-family: 'Finlandica', sans-serif;
+    text-shadow: 2px 1px 4px #0088a9;
+    color: #FFFF;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0088a9; color: #FFFF;
+    padding: 9px 25px;
+    background-color: #0088a9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 25px;
+}
+
+.grupo{
+    color: #0088a9;
+    font-size: 16px;
+}
+
+header{
+    margin: 50px;
+}
+
+.grupo{
+    margin: 2px;
+    padding: 15px 10px 0px 20px;
+}
