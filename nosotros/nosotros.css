@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
 
 *{
-    box-sizing: border-box;
+   
     margin: 0;
     padding: 0;
 }
@@ -60,3 +60,8 @@ button{
 button:hover{
     background-color: rgba(0,136,169,8);
 }
+/*--Container__Principal--*/
+.titulo{
+    padding: 20px 20%;
+    justify-content: center;
+    background: #0088a9;}
