@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-self: center;
     align-items:center;
+    width: 70cm;
 }
 
 h2{
@@ -22,7 +23,8 @@ h2{
     text-shadow: 2px 1px 4px #0088a9;
 }
 
-form{
+#form
+{
     background:#24252A;
     padding: 40px 0;
     margin: 50px;
@@ -39,6 +41,7 @@ h1{
     font-family: 'Finlandica', sans-serif;
     text-shadow: 2px 1px 4px #0088a9;
     color: #FFFF;
+    width: 15px;
 }
 
 button{
@@ -70,3 +73,9 @@ input{
     color: white;
     font-family:monospace
 }
+ 
+.logo_menu{
+    width: 180px ;
+
+}
+
