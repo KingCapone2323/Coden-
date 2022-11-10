@@ -68,8 +68,7 @@ button:hover{
 }
 
 .titulo__principal{
-    display: flex;
-    align-self: center;
+    text-align: center;
     color: #FFFF;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
     background: #0088a9;
