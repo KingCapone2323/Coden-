@@ -126,30 +126,26 @@ p{
 }
 
 /*---SECTION SUSCRIPCION---*/
-.membre__conten{
-    background-color: #ff0404e6;
-    display: flexbox;
-    position: relative;
-    justify-content: center;
+.Suscripcion__contenedor{
+    margin: 10px;
+    padding: 0px;
+    background-color: #fd0000;
+    border-radius: 10px;
 }
 
-.text__descripcion{
-    color: rgb(249, 249, 249);
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 1px 4px #010101; 
-    margin: 5px;
-}
-
-
-
-.membre__nombre{
+.text__titulo{
+    text-align: center;
     color: #FFFF;
-    font-family: 'Finlandica', sans-serif;
-    text-shadow: 2px 1px 4px #0088a9; 
-    margin: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
+    text-shadow: 1px 2px 3px #012bff;
+    font-size: 20px; 
 }
 
-.color__costo{
-    color: #0088a9;
+.description__membre{
+    text-align: center;
+    color: #FFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
+    text-shadow: 1px 2px 3px #24252A;
+    font-size: 16px;
 }
+
