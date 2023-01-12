@@ -148,4 +148,7 @@ p{
     text-shadow: 1px 2px 3px #24252A;
     font-size: 16px;
 }
+a, .boton__registro{
+ justify-content: center;
+}
 
