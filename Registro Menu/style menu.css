@@ -29,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 08%;
+    padding: 20px 08%;
     background-color: #24252A;
     
 }
@@ -68,7 +68,7 @@ button:hover{
 /* LOGO DEL MENU */
 .logo_menu{
     height: 160px;
-    width: 160px;
+    width: 120px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
