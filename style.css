@@ -102,6 +102,8 @@ p{
 
 .boton__suscribirse{
     margin: 25px 25%;
+    display: flex;
+    padding: 50%;
 }
 
 /*---Video de Fondo---*/
@@ -132,11 +134,13 @@ p{
 
 /*---SECTION SUSCRIPCION---*/
 .Membresias-contect{
-    background-color: #0088a9;;
+    background-color: #0088a9;
+    margin: 50px;
+    border-radius: 10px 5px;
 }
 
 .Membre-1{
-    margin: 50px;
+    margin: 75px;
     padding: 15px;
     display: inline-block;
     background-color:#24252A ;
