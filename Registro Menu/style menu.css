@@ -29,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 03%;
+    padding: 25px 08%;
     background-color: #24252A;
     
 }
@@ -41,8 +41,9 @@ header{
         
 .nav__link li{
     display: inline-block;
-    padding: 0px 100px;
-   
+    padding: 0px 70px;
+    margin-left: 50px;
+    font-size: 18px;
 }
         
 .nav__link{
@@ -69,7 +70,7 @@ button:hover{
     height: 160px;
     width: 160px;
     display: flex;
-    margin-right: 38em;
+    margin-right: auto;
     margin-left: auto;
     margin-top: 56px;
     
@@ -83,26 +84,29 @@ button:hover{
    font-size: 20px 30px;
     padding-right: 50px;
     padding-left: 50px;
-    margin: 25px 43%;
+    margin: 25px 44%;
 }
 /* REGISTROS  */
 .grupo{
-    margin: 20px 37%;
-    font-size: 20px;
-    display: inline-block;
+    margin: 20px 39%;
+    font-size: 30px;
     font-family: 'Josefin Sans';
     font-style: italic;
     font-style: oblique;
+    display: inline-flex;
+    position: relative;
 
 }
 div input{
-    margin-left: 50px;
-    padding: 2px;
+    margin-left: 250px;
+    padding: 5px;
     display: inline-block;
+    position: absolute;
     
 
 }
 /* BOTON SUSCRIBIRSE */
 .suscribirse{
-    margin: 25px 45%;
+    margin: 25px 47%;
+    
 }
