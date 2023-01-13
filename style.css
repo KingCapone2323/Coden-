@@ -21,7 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10%;
+    padding: 20px 10%;
     background-color: #24252A;
 }
 
@@ -126,29 +126,35 @@ p{
 }
 
 /*---SECTION SUSCRIPCION---*/
-.Suscripcion__contenedor{
-    margin: 10px;
-    padding: 0px;
-    background-color: #fd0000;
-    border-radius: 10px;
+.Membresias-contect{
+    background-color: #0088a9;;
 }
 
-.text__titulo{
-    text-align: center;
-    color: #FFFF;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
-    text-shadow: 1px 2px 3px #012bff;
-    font-size: 20px; 
+.Membre-1{
+    margin: 50px;
+    padding: 15px;
+    display: inline-block;
+    background-color:#24252A ;
+    border-radius: 15px 10px;
+    font-size: 100%;
 }
 
-.description__membre{
-    text-align: center;
-    color: #FFFF;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
-    text-shadow: 1px 2px 3px #24252A;
-    font-size: 16px;
-}
-a, .boton__registro{
- justify-content: center;
+.Membre-1{
+    border: 1px solid #ffffff;
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    padding: 30px;
+    max-width:400px;
 }
 
+.precio{
+    font-size: 25px;
+}
+
+h3{
+    color: #0088a9;
+    padding: 10px;
+    font-style: oblique;
+    justify-content: last baseline;
+}
