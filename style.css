@@ -125,6 +125,11 @@ p{
     background: #000000;
 }
 
+.lista-precio{
+  max-width: 70px;
+  margin: 10px;  
+}
+
 /*---SECTION SUSCRIPCION---*/
 .Membresias-contect{
     background-color: #0088a9;;
@@ -152,9 +157,18 @@ p{
     font-size: 25px;
 }
 
+a:hover{
+    color: #ff0000;
+}
+
+.icono-listo{
+    max-width: 20px
+}
+
 h3{
     color: #0088a9;
     padding: 10px;
     font-style: oblique;
     justify-content: last baseline;
 }
+
