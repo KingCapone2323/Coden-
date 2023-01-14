@@ -133,14 +133,18 @@ p{
 }
 
 /*---SECTION SUSCRIPCION---*/
+
 .Membresias-contect{
     background-color: #0088a9;
     margin: 50px;
     border-radius: 10px 5px;
+    overflow: hidden;
+    display: flexbox;
+    position: static; 
 }
 
 .Membre-1{
-    margin: 75px;
+    margin: 70px;
     padding: 15px;
     display: inline-block;
     background-color:#24252A ;
@@ -149,12 +153,12 @@ p{
 }
 
 .Membre-1{
-    border: 1px solid #ffffff;
+    border: 1px solid #fdfdfd;
     width: 33%;
     display: inline-block;
     font-size: 18px;
-    padding: 30px;
-    max-width:400px;
+    padding: 33px;
+    max-width: 300px;
 }
 
 .precio{
@@ -172,7 +176,20 @@ a:hover{
 h3{
     color: #0088a9;
     padding: 10px;
+    margin: 5px;
     font-style: oblique;
     justify-content: last baseline;
+
 }
 
+.Iconos-compra{
+    background-color: #fffefefd;
+    border-radius: 3px;
+    border-color: #24252A;
+}
+
+.Compra-icon{
+    max-width: 80px;
+   justify-content: center;
+   margin-left: 270px;
+}
