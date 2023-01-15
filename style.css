@@ -84,6 +84,7 @@ button:hover{
     margin: 0px; padding: 0px;
     box-sizing: border-box;
     overflow: hidden;
+    position: relative;
 }
     
 .titulo__con__principal{
@@ -110,7 +111,17 @@ p{
 .video{
     width: 100%;
     height: auto;
-    position: relative;
+    /* display: inline-block; */
+}
+
+.titulo_video{
+    color: #fdfdfd;
+    opacity: 1;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 45%;
+
+
 }
 
 .absolute{
