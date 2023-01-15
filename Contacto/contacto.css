@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +14,7 @@ body{
 }
 
 li, a, button{
-    font-family: 'Finlandica', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-weight: 500; font-size: 1em;
     color: #FFFF;
     text-decoration: none;
@@ -21,7 +23,7 @@ li, a, button{
 
 h1{
     color: #FFFF;
-    font-family: 'Finlandica', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-shadow: 2px 1px 4px #0088a9;
 }
 
@@ -93,6 +95,6 @@ button:hover{
     
 }
 .content_redes{
-    margin-top: 80px;
-    margin-left: 43em ;
+    margin-top: 30px;
+    margin-left: 31em ;
 }
