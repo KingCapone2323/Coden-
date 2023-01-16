@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
-
 *{
-   
+   box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -61,7 +60,25 @@ button:hover{
     background-color: rgba(0,136,169,8);
 }
 /*--Container__Principal--*/
-.titulo{
-    padding: 20px 20%;
-    justify-content: center;
-    background: #0088a9;}
+.principal{
+    display: flex;
+}
+.user_admin{
+    background-color: white; 
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px;
+}
+.img_user{
+    width: 150px;
+    background-color: #0088a9;
+    border-radius: 100px;
+}
+#yendrick{
+   
+    
+}
+.description{
+    border-style: solid;
+    width: 150px;
+}
