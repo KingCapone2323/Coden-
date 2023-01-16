@@ -15,7 +15,7 @@ body{
 
 li, a, button{
     font-family: 'Press Start 2P', cursive;
-    font-weight: 500; font-size: 1em;
+    font-weight: 500; font-size: 10px;
     color: #FFFF;
     text-decoration: none;
     
@@ -31,7 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 08%;
+    padding: 20px 10%;
     background-color: #24252A;
     
 }
@@ -43,9 +43,7 @@ header{
         
 .nav__link li{
     display: inline-block;
-    padding: 0px 70px;
-    margin-left: 50px;
-    font-size: 18px;
+    padding: 0px 50px;
 }
         
 .nav__link{
@@ -97,4 +95,8 @@ button:hover{
 .content_redes{
     margin-top: 30px;
     margin-left: 31em ;
+}
+.ig_text{
+    padding-right: 0%;
+    font-size: 29px;
 }
