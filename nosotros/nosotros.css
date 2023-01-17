@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2? familia= Chakra+Petch & display=swap');
 *{
    box-sizing: border-box;
     margin: 0;
@@ -64,21 +66,55 @@ button:hover{
     display: flex;
 }
 .user_admin{
-    background-color: white; 
+    background-color: rgba(255, 255, 255, 0); 
     text-align: center;
     border-radius: 10px;
     margin: 50px;
+    border-radius: 0;
 }
 .img_user{
     width: 150px;
     background-color: #0088a9;
-    border-radius: 100px;
+    border-radius: 100px;    
 }
-#yendrick{
-   
+.nombre_user{
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 40px;
+   text-shadow: 2px 2px #0088a9;
     
 }
+
 .description{
     border-style: solid;
-    width: 150px;
+    border-color: #0088a9;
+    border-width: 4px;
+    color: white;
+    background-color: #24252A;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+}
+/* OBJETIVO DE LA PAGINA */
+.page_obj{
+    display: block;
+    text-align: center;
+}
+.obj{
+color: white;
+font-size: 40px;
+font-family: 'Quicksand', sans-serif;
+text-shadow: 2px 2px #0088a9;
+}
+.text_obj{
+color: white;
+border-style: solid;
+text-transform: capitalize;
+text-align: center;
+width: 700px;
+display: inline-flex;
+background-color: #24252A;
+font-family: 'Jost', sans-serif;;
+border-color: #0088a9;
+border-width: 4px;
+font-size: 20px;
 }
