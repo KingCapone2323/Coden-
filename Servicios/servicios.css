@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+li, a, button{
+    font-family: 'Finlandica', sans-serif;
+    font-weight: 500; font-size: 1em;
+    color: #FFFF;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #24252A;
+}
+
+h1{
+color: #FFFF;
+font-family: 'Finlandica', sans-serif;
+text-shadow: 2px 1px 4px #0088a9;
+}
+
+.nav__link{
+list-style: none;
+}
+
+.nav__link li {
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+.nav__link{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__link li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,8);
+}
+/* MEMBRESIAS */
+/*---SECTION SUSCRIPCION---*/
+
+.Membresias-contect{
+    background-color: #0088a9;
+    margin: 50px;
+    border-radius: 10px 5px;
+    overflow: hidden;
+    display: flexbox;
+    position: static; 
+}
+
+.Membre-1{
+    margin: 70px;
+    padding: 15px;
+    display: inline-block;
+    background-color:#24252A ;
+    border-radius: 15px 10px;
+    font-size: 100%;
+}
+
+.Membre-1{
+    border: 1px solid #fdfdfd;
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    padding: 33px;
+    max-width: 300px;
+    margin-left: 101px;
+    text-align: center;
+}
+
+.precio{
+    font-size: 25px;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+.icono-listo{
+    max-width: 20px
+}
+
+h3{
+    color: #0088a9;
+    padding: 10px;
+    margin: 5px;
+    font-style: oblique;
+    justify-content: last baseline;
+
+}
+.contenido__principal{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+    
+.titulo__con__principal{
+    color: #FFFF;
+    font-family: 'Finlandica', sans-serif;
+    text-shadow: 2px 1px 4px #0088a9; 
+    margin: 5px;
+}
+
+p{
+    display: flex;
+    color: #FFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 25px;
+    text-shadow: 1px 2px 3px #24252A;
+}
+
+.boton__suscribirse{
+    margin: 25px 25%;
+    display: flex;
+    padding: 50%;
+}
+.Iconos-compra{
+    background-color: #fffefefd;
+    border-radius: 3px;
+    border-color: #24252A;      
+}
+
+.Compra-icon{
+    max-width: 80px;
+   justify-content: center;
+   margin-left: 300px;
+}

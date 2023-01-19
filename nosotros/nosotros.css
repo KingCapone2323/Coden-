@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@500 & display=swap');
-@import url('https://fonts.googleapis.com/css2? familia= Chakra+Petch & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Explora & display=swap');
 *{
    box-sizing: border-box;
     margin: 0;
@@ -79,7 +80,7 @@ button:hover{
 }
 .nombre_user{
    color: white;
-   font-family: 'Quicksand', sans-serif;
+   font-family: 'Staatliches', cursive;
    font-size: 40px;
    text-shadow: 2px 2px #0088a9;
     
@@ -91,8 +92,8 @@ button:hover{
     border-width: 4px;
     color: white;
     background-color: #24252A;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 20px;
+    font-family: 'Explora', cursive;
 }
 /* OBJETIVO DE LA PAGINA */
 .page_obj{
@@ -102,7 +103,7 @@ button:hover{
 .obj{
 color: white;
 font-size: 40px;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Staatliches', cursive;
 text-shadow: 2px 2px #0088a9;
 }
 .text_obj{
@@ -113,7 +114,7 @@ text-align: center;
 width: 700px;
 display: inline-flex;
 background-color: #24252A;
-font-family: 'Jost', sans-serif;;
+font-family: 'Explora', cursive;
 border-color: #0088a9;
 border-width: 4px;
 font-size: 20px;
