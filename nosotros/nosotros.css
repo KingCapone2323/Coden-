@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Explora & display=swap');
 *{
-   
+   box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -61,7 +63,59 @@ button:hover{
     background-color: rgba(0,136,169,8);
 }
 /*--Container__Principal--*/
-.titulo{
-    padding: 20px 20%;
-    justify-content: center;
-    background: #0088a9;}
+.principal{
+    display: flex;
+}
+.user_admin{
+    background-color: rgba(255, 255, 255, 0); 
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px;
+    border-radius: 0;
+}
+.img_user{
+    width: 150px;
+    background-color: #0088a9;
+    border-radius: 100px;    
+}
+.nombre_user{
+   color: white;
+   font-family: 'Staatliches', cursive;
+   font-size: 40px;
+   text-shadow: 2px 2px #0088a9;
+    
+}
+
+.description{
+    border-style: solid;
+    border-color: #0088a9;
+    border-width: 4px;
+    color: white;
+    background-color: #24252A;
+    font-size: 20px;
+    font-family: 'Explora', cursive;
+}
+/* OBJETIVO DE LA PAGINA */
+.page_obj{
+    display: block;
+    text-align: center;
+}
+.obj{
+color: white;
+font-size: 40px;
+font-family: 'Staatliches', cursive;
+text-shadow: 2px 2px #0088a9;
+}
+.text_obj{
+color: white;
+border-style: solid;
+text-transform: capitalize;
+text-align: center;
+width: 700px;
+display: inline-flex;
+background-color: #24252A;
+font-family: 'Explora', cursive;
+border-color: #0088a9;
+border-width: 4px;
+font-size: 20px;
+}

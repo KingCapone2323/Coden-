@@ -1,9 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
 }
 
+body{
+    background-color: black;
+    color: white;
+}
+
+li, a, button{
+    font-family: 'Finlandica', sans-serif;
+    font-weight: 500; font-size: 1em;
+    color: #FFFF;
+    text-decoration: none;
+    
+}
+
+h1{
+    color: #FFFF;
+    font-family: 'Finlandica', sans-serif;
+    text-shadow: 2px 1px 4px #0088a9;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 08%;
+    background-color: #24252A;
+    
+}
+
+.nav__link{
+    list-style: none;
+    
+}
+        
+.nav__link li{
+    display: inline-block;
+    padding: 0px 70px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+        
+.nav__link{
+transition: all 0.3s ease 0s;      
+}
+
+.nav__link li a:hover{
+    color: #0088a9;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}      
+
+button:hover{
+    background-color: rgba(0,136,169,8);
+}
+/* LOGO DEL MENU */
+.logo_menu{
+    height: 160px;
+    width: 120px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    
+}
+.title__registro{ 
+    display: inline-block;
+   background-color: rgba(0,136,169,1);
+   padding: 1%;
+   border-radius: 50px;
+   font-family: 'Josefin Sans';
+   font-size: 20px 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 25px 44%;
+}
+/* REGISTROS  */
+.grupo{
+    margin: 20px 39%;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-style: oblique;
+    display: inline-flex;
+    position: relative;
+
+}
+div input{
+    margin-left: 250px;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    
+
+}
+/* BOTON SUSCRIBIRSE */
+.suscribirse{
+    margin: 25px 47%;
+    
+}

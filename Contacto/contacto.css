@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 *{
     box-sizing: border-box;
@@ -8,46 +10,49 @@
 
 body{
     background-color: black;
+    color: white;
 }
 
 li, a, button{
-    font-family: 'Finlandica', sans-serif;
-    font-weight: 500; font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500; font-size: 10px;
     color: #FFFF;
     text-decoration: none;
+    
+}
+
+h1{
+    color: #FFFF;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 1px 4px #0088a9;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10%;
+    padding: 20px 10%;
     background-color: #24252A;
-}
-
-h1{
-color: #FFFF;
-font-family: 'Finlandica', sans-serif;
-text-shadow: 2px 1px 4px #0088a9;
+    
 }
 
 .nav__link{
-list-style: none;
+    list-style: none;
+    
 }
-
-.nav__link li {
+        
+.nav__link li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 50px;
 }
-
+        
 .nav__link{
-    transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;      
 }
 
 .nav__link li a:hover{
     color: #0088a9;
 }
-
 button{
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
@@ -55,8 +60,43 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-}
+}      
 
 button:hover{
     background-color: rgba(0,136,169,8);
+}
+/* BOTONES */
+.link{
+    display: flex;
+    margin: 30px;
+    
+}
+.box_logo{
+    background-color: #0088a9;
+    display: inline-flex;
+    border-radius: 30px;
+    padding: 9px 150px;
+    top: 0%;
+     
+}
+.box_logo img{
+    width: 60px ;
+}
+.boton_link{
+    /* position: absolute; */
+    display: inline-flex;
+    list-style: none;
+    font-size: 30px;
+    top: 0%;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+.content_redes{
+    margin-top: 30px;
+    margin-left: 31em ;
+   
+}
+.ig_text{
+    padding-right: 0%;
+    font-size: 29px;
 }
